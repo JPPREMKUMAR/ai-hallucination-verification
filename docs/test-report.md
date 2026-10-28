@@ -11,8 +11,9 @@ Environment: Windows host, bundled Python 3.12.14, pytest 8.3.5, Node.js 22, npm
 | API live smoke check | **Passed** | Seeded 7 example claims; source coverage 0.714; created a supported claim and retrieved its source evidence |
 | Manual browser workflow | **Passed at the current browser viewport** | Displayed 7 seeded claims and saved a source-free claim as unresolved with a rationale |
 | Deployment | **Not deployed** | No remote host configured |
-| GitHub publication | **Not published** | Local repository is committed; remote repository creation and push remain pending |
+| GitHub publication | **Published** | Public GitHub snapshot on `main`; source files verified |
 
 The examples demonstrate supported, contradicted, unresolved, and not-checkable judgments using synthetic claim records and actual official-source evidence passages. The unresolved status is preserved for unsupported or time-sensitive claims; no automated false verdict is produced.
 
 Known gaps: no external source fetching, archived snapshots, systematic desktop/mobile breakpoint matrix, authentication, or deployed smoke test. Source assessment fields are manually entered and are not independently verified by the application.
+
