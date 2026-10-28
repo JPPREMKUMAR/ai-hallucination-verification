@@ -2,7 +2,7 @@
 
 Independent claim-level evidence tracking for reviewers. The app records sources and reviewer judgments; it does not fetch pages or automatically decide that an unsourced claim is false. Not affiliated with Handshake or any AI lab.
 
-Status: **Implemented, tested, and frontend build verified.** Not deployed or published to GitHub.
+Status: **Implemented, tested, and frontend build verified.** Not deployed. Public GitHub repository: https://github.com/JPPREMKUMAR/ai-hallucination-verification.
 
 ## Features
 
@@ -50,3 +50,4 @@ See [`docs/requirements.md`](docs/requirements.md) for MVP acceptance criteria, 
 ## License
 
 MIT. See `LICENSE`.
+
